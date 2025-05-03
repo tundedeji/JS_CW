@@ -1,22 +1,15 @@
 // Variables
-let number = 72;
-
-const position = "Quarterback";
-const loveNfl = true;
-let name;
-const myChest = null;
-const symbolValue = "id";
-const bigIntValue = 99999999999999999999999n;
 
 const classArray = [
-  72,
-  "Quarterback",
-  true,
-  null,
-  undefined,
-  { name: "Tunde" },
-  [1, 2, 3],
-  bigIntValue,
-  symbolValue,
+  42, // "number"
+  "Tunde", // "string"
+  true, // "boolean"
+  undefined, // "undefined"
+  null, // "object" (special case)
+  Symbol("id"), // "symbol"
+  BigInt(123456), // "bigint"
+  { basketball: "luka" }, // "object"
+  function () {}, // "function"
 ];
-console.log(classArray[4]);
+
+console.log(classArray[7]);
