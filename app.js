@@ -12,4 +12,4 @@ const classArray = [
   function () {}, // "function"
 ];
 
-console.log(classArray[7]);
+console.log(classArray[3]);
